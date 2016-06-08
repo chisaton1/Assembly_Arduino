@@ -2,7 +2,7 @@
  * AddExample.asm
  *
  *  Created: 2015/09/03 14:00:53
- *   Author: Chisaton
+ *   Author: chisaton
  */ 
 
 		.nolist

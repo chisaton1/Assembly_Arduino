@@ -1,6 +1,6 @@
 /*
  * BlinkInAssembler.asm
- * Author: Chisato Nakamura
+ * Author: chisaton
  */
 
 .nolist
