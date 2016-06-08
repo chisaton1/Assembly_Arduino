@@ -1,20 +1,15 @@
 /*
  * Piezo.asm
  *
- *  Created: 2015/11/10 14:17:41
- *   Author: chisaton
- */ 
-
-
- /*
  * TimerInterrupt.asm - Toggles pin 5 of portB every 40 microseconds while at the same time 
  * transferring data from PORTC to PORTD. Uses interrupts forTimer0.  Timer0 will use CTC mode
  * and a 1/8 prescaler.
  * 
  * Similar to Example 10-3 on page 374 of textbook (Mazidi) 
  *
- *  Created: Tue, 11, 3, 2015 10:27:03 AM
- *   Author: Lynn
+ *
+ *  Created: 2015/11/10 14:17:41
+ *   Author: chisaton
  */ 
 
 			.nolist

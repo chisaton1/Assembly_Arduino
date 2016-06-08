@@ -1,21 +1,16 @@
 /*
  * TimerExample1.asm
  *
+ * TimerExample1version2.asm - continuously toggles pin 5 of port B
+ * using timer0 in normal mode (no prescaler)
+ * to control the short delay.
+ *
+ * Similar to Example 9-3 on page 318 of Mazidi
+ *
  *  Created: 2015/10/27 13:48:12
  *   Author: chisaton
  */ 
 
-
-/*
- * TimerExample1version2.asm - continuously toggles pin 5 of port B
- *						using timer0 in normal mode (no prescaler)
- *						to control the short delay.
- *
- *  Similar to Example 9-3 on page 318 of Mazidi
- *
- *  Created: Thu, 10, 29, 2015 9:45:48 AM
- *   Author: Lynn
- */ 
 		.nolist 
 		.include <m328pdef.inc>
 		.include "WVWCmacros.inc"
